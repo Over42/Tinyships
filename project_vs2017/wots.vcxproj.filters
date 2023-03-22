@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{eb810dd9-5246-4d83-8948-e4fb4fee67a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{22153f71-843b-40da-b85f-09e1c07a2caf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\framework\engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\scene.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game_cpp\game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game_cpp\main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\framework\engine.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\game.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\scene.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
